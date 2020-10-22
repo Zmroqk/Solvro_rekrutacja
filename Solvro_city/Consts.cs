@@ -5,8 +5,14 @@ using System.Threading.Tasks;
 
 namespace Solvro_city
 {
+    /// <summary>
+    /// Class with consts for application
+    /// </summary>
     public static class Consts
     {
-        public static string SOLVRO_CITY_JSON_PATH = "./solvro_city.json";
+        /// <summary>
+        /// Path to json with stops and links
+        /// </summary>
+        public const string SOLVRO_CITY_JSON_PATH = "./solvro_city.json";
     }
 }
