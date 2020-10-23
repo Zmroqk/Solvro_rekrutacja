@@ -7,17 +7,17 @@ using Solvro_city.Models.SolvroCity;
 using System.IO;
 using Solvro_city.Models.Responses;
 
-namespace Solvro_city
+namespace Solvro_city.Services
 {
     /// <summary>
     /// Class that handles generating Solvro city graph structure, allows also for finding path between two nodes in Solvro city
     /// </summary>
-    public class SolvroCityGraph
+    public class SolvroCityGraph : IPathFinding
     {
         /// <summary>
         /// Instance to this class
         /// </summary>
-        static public SolvroCityGraph Instance { get; private set; }
+        //static public SolvroCityGraph Instance { get; private set; }
         //List<SolvroCityLink> links { get; set; }
 
         /// <summary>
@@ -28,7 +28,7 @@ namespace Solvro_city
         /// <summary>
         /// List of nodes with basic data
         /// </summary>
-        public List<SolvroCityNode> SolvroNodes { 
+        public List<SolvroCityNode> Stops { 
             get {
                 List<SolvroCityNode> nodes = new List<SolvroCityNode>();
                 foreach(SolvroCityGraphNode node in Nodes)
@@ -42,20 +42,16 @@ namespace Solvro_city
         /// <summary>
         /// Prevent creating instances of this class
         /// </summary>
-        private SolvroCityGraph() { }
+        public SolvroCityGraph() { }
 
 
         /// <summary>
         /// Init this class, create graph structure
         /// </summary>
-        public static void InitGraph()
+        public void InitGraph()
         {
-            if (Instance == null)
-            {
-                Instance = new SolvroCityGraph();
-                SolvroCityData scd = Instance.ReadJson();
-                Instance.CreateGraph(scd);
-            }
+            SolvroCityData scd = ReadJson();
+            CreateGraph(scd);
         }
 
         /// <summary>

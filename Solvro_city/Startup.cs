@@ -11,6 +11,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Solvro_city.Context;
+using Solvro_city.Services;
 
 namespace Solvro_city
 {
@@ -27,6 +32,28 @@ namespace Solvro_city
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc(option => option.EnableEndpointRouting = false);
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+            {
+                options.SaveToken = true;
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = Configuration["Jwt:Issuer"],
+                    ValidAudience = Configuration["Jwt:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:SecretKey"]))
+                };
+            });
+            services.AddDbContext<UserContext>();
+            services.AddSingleton<IPathFinding, SolvroCityGraph>(
+                (sp) => {
+                    SolvroCityGraph solvroCity = new SolvroCityGraph(); 
+                    solvroCity.InitGraph(); 
+                    return solvroCity;
+                }
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,10 +68,11 @@ namespace Solvro_city
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            app.UseAuthentication();
+            app.UseAuthorization();
             app.UseMvc();
+            app.UseHttpsRedirection();
 
-            SolvroCityGraph.InitGraph(); //init solvro city graph
         }
     }
 }

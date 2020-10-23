@@ -19,18 +19,114 @@ references:
   commentId: F:Solvro_city.Consts.SOLVRO_CITY_JSON_PATH
   fullName: Solvro_city.Consts.SOLVRO_CITY_JSON_PATH
   nameWithType: Consts.SOLVRO_CITY_JSON_PATH
+- uid: Solvro_city.Context
+  name: Solvro_city.Context
+  href: api/Solvro_city.Context.html
+  commentId: N:Solvro_city.Context
+  fullName: Solvro_city.Context
+  nameWithType: Solvro_city.Context
+- uid: Solvro_city.Context.UserContext
+  name: UserContext
+  href: api/Solvro_city.Context.UserContext.html
+  commentId: T:Solvro_city.Context.UserContext
+  fullName: Solvro_city.Context.UserContext
+  nameWithType: UserContext
+- uid: Solvro_city.Context.UserContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  name: OnConfiguring(DbContextOptionsBuilder)
+  href: api/Solvro_city.Context.UserContext.html#Solvro_city_Context_UserContext_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_
+  commentId: M:Solvro_city.Context.UserContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  fullName: Solvro_city.Context.UserContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  nameWithType: UserContext.OnConfiguring(DbContextOptionsBuilder)
+- uid: Solvro_city.Context.UserContext.OnConfiguring*
+  name: OnConfiguring
+  href: api/Solvro_city.Context.UserContext.html#Solvro_city_Context_UserContext_OnConfiguring_
+  commentId: Overload:Solvro_city.Context.UserContext.OnConfiguring
+  isSpec: "True"
+  fullName: Solvro_city.Context.UserContext.OnConfiguring
+  nameWithType: UserContext.OnConfiguring
+- uid: Solvro_city.Context.UserContext.Users
+  name: Users
+  href: api/Solvro_city.Context.UserContext.html#Solvro_city_Context_UserContext_Users
+  commentId: P:Solvro_city.Context.UserContext.Users
+  fullName: Solvro_city.Context.UserContext.Users
+  nameWithType: UserContext.Users
+- uid: Solvro_city.Context.UserContext.Users*
+  name: Users
+  href: api/Solvro_city.Context.UserContext.html#Solvro_city_Context_UserContext_Users_
+  commentId: Overload:Solvro_city.Context.UserContext.Users
+  isSpec: "True"
+  fullName: Solvro_city.Context.UserContext.Users
+  nameWithType: UserContext.Users
 - uid: Solvro_city.Controllers
   name: Solvro_city.Controllers
   href: api/Solvro_city.Controllers.html
   commentId: N:Solvro_city.Controllers
   fullName: Solvro_city.Controllers
   nameWithType: Solvro_city.Controllers
+- uid: Solvro_city.Controllers.LoginController
+  name: LoginController
+  href: api/Solvro_city.Controllers.LoginController.html
+  commentId: T:Solvro_city.Controllers.LoginController
+  fullName: Solvro_city.Controllers.LoginController
+  nameWithType: LoginController
+- uid: Solvro_city.Controllers.LoginController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Solvro_city.Context.UserContext)
+  name: LoginController(IConfiguration, UserContext)
+  href: api/Solvro_city.Controllers.LoginController.html#Solvro_city_Controllers_LoginController__ctor_Microsoft_Extensions_Configuration_IConfiguration_Solvro_city_Context_UserContext_
+  commentId: M:Solvro_city.Controllers.LoginController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Solvro_city.Context.UserContext)
+  fullName: Solvro_city.Controllers.LoginController.LoginController(Microsoft.Extensions.Configuration.IConfiguration, Solvro_city.Context.UserContext)
+  nameWithType: LoginController.LoginController(IConfiguration, UserContext)
+- uid: Solvro_city.Controllers.LoginController.#ctor*
+  name: LoginController
+  href: api/Solvro_city.Controllers.LoginController.html#Solvro_city_Controllers_LoginController__ctor_
+  commentId: Overload:Solvro_city.Controllers.LoginController.#ctor
+  isSpec: "True"
+  fullName: Solvro_city.Controllers.LoginController.LoginController
+  nameWithType: LoginController.LoginController
+- uid: Solvro_city.Controllers.LoginController.Login(Solvro_city.Models.User)
+  name: Login(User)
+  href: api/Solvro_city.Controllers.LoginController.html#Solvro_city_Controllers_LoginController_Login_Solvro_city_Models_User_
+  commentId: M:Solvro_city.Controllers.LoginController.Login(Solvro_city.Models.User)
+  fullName: Solvro_city.Controllers.LoginController.Login(Solvro_city.Models.User)
+  nameWithType: LoginController.Login(User)
+- uid: Solvro_city.Controllers.LoginController.Login*
+  name: Login
+  href: api/Solvro_city.Controllers.LoginController.html#Solvro_city_Controllers_LoginController_Login_
+  commentId: Overload:Solvro_city.Controllers.LoginController.Login
+  isSpec: "True"
+  fullName: Solvro_city.Controllers.LoginController.Login
+  nameWithType: LoginController.Login
+- uid: Solvro_city.Controllers.LoginController.Register(Solvro_city.Models.User)
+  name: Register(User)
+  href: api/Solvro_city.Controllers.LoginController.html#Solvro_city_Controllers_LoginController_Register_Solvro_city_Models_User_
+  commentId: M:Solvro_city.Controllers.LoginController.Register(Solvro_city.Models.User)
+  fullName: Solvro_city.Controllers.LoginController.Register(Solvro_city.Models.User)
+  nameWithType: LoginController.Register(User)
+- uid: Solvro_city.Controllers.LoginController.Register*
+  name: Register
+  href: api/Solvro_city.Controllers.LoginController.html#Solvro_city_Controllers_LoginController_Register_
+  commentId: Overload:Solvro_city.Controllers.LoginController.Register
+  isSpec: "True"
+  fullName: Solvro_city.Controllers.LoginController.Register
+  nameWithType: LoginController.Register
 - uid: Solvro_city.Controllers.SolvroCityController
   name: SolvroCityController
   href: api/Solvro_city.Controllers.SolvroCityController.html
   commentId: T:Solvro_city.Controllers.SolvroCityController
   fullName: Solvro_city.Controllers.SolvroCityController
   nameWithType: SolvroCityController
+- uid: Solvro_city.Controllers.SolvroCityController.#ctor(Solvro_city.Services.IPathFinding)
+  name: SolvroCityController(IPathFinding)
+  href: api/Solvro_city.Controllers.SolvroCityController.html#Solvro_city_Controllers_SolvroCityController__ctor_Solvro_city_Services_IPathFinding_
+  commentId: M:Solvro_city.Controllers.SolvroCityController.#ctor(Solvro_city.Services.IPathFinding)
+  fullName: Solvro_city.Controllers.SolvroCityController.SolvroCityController(Solvro_city.Services.IPathFinding)
+  nameWithType: SolvroCityController.SolvroCityController(IPathFinding)
+- uid: Solvro_city.Controllers.SolvroCityController.#ctor*
+  name: SolvroCityController
+  href: api/Solvro_city.Controllers.SolvroCityController.html#Solvro_city_Controllers_SolvroCityController__ctor_
+  commentId: Overload:Solvro_city.Controllers.SolvroCityController.#ctor
+  isSpec: "True"
+  fullName: Solvro_city.Controllers.SolvroCityController.SolvroCityController
+  nameWithType: SolvroCityController.SolvroCityController
 - uid: Solvro_city.Controllers.SolvroCityController.Path(System.String,System.String)
   name: Path(String, String)
   href: api/Solvro_city.Controllers.SolvroCityController.html#Solvro_city_Controllers_SolvroCityController_Path_System_String_System_String_
@@ -57,24 +153,69 @@ references:
   isSpec: "True"
   fullName: Solvro_city.Controllers.SolvroCityController.Stops
   nameWithType: SolvroCityController.Stops
+- uid: Solvro_city.Migrations
+  name: Solvro_city.Migrations
+  href: api/Solvro_city.Migrations.html
+  commentId: N:Solvro_city.Migrations
+  fullName: Solvro_city.Migrations
+  nameWithType: Solvro_city.Migrations
+- uid: Solvro_city.Migrations.InitialCreate
+  name: InitialCreate
+  href: api/Solvro_city.Migrations.InitialCreate.html
+  commentId: T:Solvro_city.Migrations.InitialCreate
+  fullName: Solvro_city.Migrations.InitialCreate
+  nameWithType: InitialCreate
+- uid: Solvro_city.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  name: BuildTargetModel(ModelBuilder)
+  href: api/Solvro_city.Migrations.InitialCreate.html#Solvro_city_Migrations_InitialCreate_BuildTargetModel_Microsoft_EntityFrameworkCore_ModelBuilder_
+  commentId: M:Solvro_city.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  fullName: Solvro_city.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  nameWithType: InitialCreate.BuildTargetModel(ModelBuilder)
+- uid: Solvro_city.Migrations.InitialCreate.BuildTargetModel*
+  name: BuildTargetModel
+  href: api/Solvro_city.Migrations.InitialCreate.html#Solvro_city_Migrations_InitialCreate_BuildTargetModel_
+  commentId: Overload:Solvro_city.Migrations.InitialCreate.BuildTargetModel
+  isSpec: "True"
+  fullName: Solvro_city.Migrations.InitialCreate.BuildTargetModel
+  nameWithType: InitialCreate.BuildTargetModel
+- uid: Solvro_city.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Down(MigrationBuilder)
+  href: api/Solvro_city.Migrations.InitialCreate.html#Solvro_city_Migrations_InitialCreate_Down_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:Solvro_city.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: Solvro_city.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: InitialCreate.Down(MigrationBuilder)
+- uid: Solvro_city.Migrations.InitialCreate.Down*
+  name: Down
+  href: api/Solvro_city.Migrations.InitialCreate.html#Solvro_city_Migrations_InitialCreate_Down_
+  commentId: Overload:Solvro_city.Migrations.InitialCreate.Down
+  isSpec: "True"
+  fullName: Solvro_city.Migrations.InitialCreate.Down
+  nameWithType: InitialCreate.Down
+- uid: Solvro_city.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Up(MigrationBuilder)
+  href: api/Solvro_city.Migrations.InitialCreate.html#Solvro_city_Migrations_InitialCreate_Up_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:Solvro_city.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: Solvro_city.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: InitialCreate.Up(MigrationBuilder)
+- uid: Solvro_city.Migrations.InitialCreate.Up*
+  name: Up
+  href: api/Solvro_city.Migrations.InitialCreate.html#Solvro_city_Migrations_InitialCreate_Up_
+  commentId: Overload:Solvro_city.Migrations.InitialCreate.Up
+  isSpec: "True"
+  fullName: Solvro_city.Migrations.InitialCreate.Up
+  nameWithType: InitialCreate.Up
+- uid: Solvro_city.Models
+  name: Solvro_city.Models
+  href: api/Solvro_city.Models.html
+  commentId: N:Solvro_city.Models
+  fullName: Solvro_city.Models
+  nameWithType: Solvro_city.Models
 - uid: Solvro_city.Models.Responses
   name: Solvro_city.Models.Responses
   href: api/Solvro_city.Models.Responses.html
   commentId: N:Solvro_city.Models.Responses
   fullName: Solvro_city.Models.Responses
   nameWithType: Solvro_city.Models.Responses
-- uid: Solvro_city.Models.Responses.DefaultJsonResponses
-  name: DefaultJsonResponses
-  href: api/Solvro_city.Models.Responses.DefaultJsonResponses.html
-  commentId: T:Solvro_city.Models.Responses.DefaultJsonResponses
-  fullName: Solvro_city.Models.Responses.DefaultJsonResponses
-  nameWithType: DefaultJsonResponses
-- uid: Solvro_city.Models.Responses.DefaultJsonResponses.BAD_REQUEST
-  name: BAD_REQUEST
-  href: api/Solvro_city.Models.Responses.DefaultJsonResponses.html#Solvro_city_Models_Responses_DefaultJsonResponses_BAD_REQUEST
-  commentId: F:Solvro_city.Models.Responses.DefaultJsonResponses.BAD_REQUEST
-  fullName: Solvro_city.Models.Responses.DefaultJsonResponses.BAD_REQUEST
-  nameWithType: DefaultJsonResponses.BAD_REQUEST
 - uid: Solvro_city.Models.Responses.PathResponse
   name: PathResponse
   href: api/Solvro_city.Models.Responses.PathResponse.html
@@ -174,40 +315,40 @@ references:
   fullName.vb: Solvro_city.Models.Responses.Response(Of T).Response
   nameWithType: Response<T>.Response
   nameWithType.vb: Response(Of T).Response
-- uid: Solvro_city.Models.Responses.Response`1.code
-  name: code
-  href: api/Solvro_city.Models.Responses.Response-1.html#Solvro_city_Models_Responses_Response_1_code
-  commentId: P:Solvro_city.Models.Responses.Response`1.code
-  fullName: Solvro_city.Models.Responses.Response<T>.code
-  fullName.vb: Solvro_city.Models.Responses.Response(Of T).code
-  nameWithType: Response<T>.code
-  nameWithType.vb: Response(Of T).code
-- uid: Solvro_city.Models.Responses.Response`1.code*
-  name: code
-  href: api/Solvro_city.Models.Responses.Response-1.html#Solvro_city_Models_Responses_Response_1_code_
-  commentId: Overload:Solvro_city.Models.Responses.Response`1.code
+- uid: Solvro_city.Models.Responses.Response`1.Code
+  name: Code
+  href: api/Solvro_city.Models.Responses.Response-1.html#Solvro_city_Models_Responses_Response_1_Code
+  commentId: P:Solvro_city.Models.Responses.Response`1.Code
+  fullName: Solvro_city.Models.Responses.Response<T>.Code
+  fullName.vb: Solvro_city.Models.Responses.Response(Of T).Code
+  nameWithType: Response<T>.Code
+  nameWithType.vb: Response(Of T).Code
+- uid: Solvro_city.Models.Responses.Response`1.Code*
+  name: Code
+  href: api/Solvro_city.Models.Responses.Response-1.html#Solvro_city_Models_Responses_Response_1_Code_
+  commentId: Overload:Solvro_city.Models.Responses.Response`1.Code
   isSpec: "True"
-  fullName: Solvro_city.Models.Responses.Response<T>.code
-  fullName.vb: Solvro_city.Models.Responses.Response(Of T).code
-  nameWithType: Response<T>.code
-  nameWithType.vb: Response(Of T).code
-- uid: Solvro_city.Models.Responses.Response`1.data
-  name: data
-  href: api/Solvro_city.Models.Responses.Response-1.html#Solvro_city_Models_Responses_Response_1_data
-  commentId: P:Solvro_city.Models.Responses.Response`1.data
-  fullName: Solvro_city.Models.Responses.Response<T>.data
-  fullName.vb: Solvro_city.Models.Responses.Response(Of T).data
-  nameWithType: Response<T>.data
-  nameWithType.vb: Response(Of T).data
-- uid: Solvro_city.Models.Responses.Response`1.data*
-  name: data
-  href: api/Solvro_city.Models.Responses.Response-1.html#Solvro_city_Models_Responses_Response_1_data_
-  commentId: Overload:Solvro_city.Models.Responses.Response`1.data
+  fullName: Solvro_city.Models.Responses.Response<T>.Code
+  fullName.vb: Solvro_city.Models.Responses.Response(Of T).Code
+  nameWithType: Response<T>.Code
+  nameWithType.vb: Response(Of T).Code
+- uid: Solvro_city.Models.Responses.Response`1.Data
+  name: Data
+  href: api/Solvro_city.Models.Responses.Response-1.html#Solvro_city_Models_Responses_Response_1_Data
+  commentId: P:Solvro_city.Models.Responses.Response`1.Data
+  fullName: Solvro_city.Models.Responses.Response<T>.Data
+  fullName.vb: Solvro_city.Models.Responses.Response(Of T).Data
+  nameWithType: Response<T>.Data
+  nameWithType.vb: Response(Of T).Data
+- uid: Solvro_city.Models.Responses.Response`1.Data*
+  name: Data
+  href: api/Solvro_city.Models.Responses.Response-1.html#Solvro_city_Models_Responses_Response_1_Data_
+  commentId: Overload:Solvro_city.Models.Responses.Response`1.Data
   isSpec: "True"
-  fullName: Solvro_city.Models.Responses.Response<T>.data
-  fullName.vb: Solvro_city.Models.Responses.Response(Of T).data
-  nameWithType: Response<T>.data
-  nameWithType.vb: Response(Of T).data
+  fullName: Solvro_city.Models.Responses.Response<T>.Data
+  fullName.vb: Solvro_city.Models.Responses.Response(Of T).Data
+  nameWithType: Response<T>.Data
+  nameWithType.vb: Response(Of T).Data
 - uid: Solvro_city.Models.Responses.Response`1.ToString
   name: ToString()
   href: api/Solvro_city.Models.Responses.Response-1.html#Solvro_city_Models_Responses_Response_1_ToString
@@ -534,6 +675,51 @@ references:
   isSpec: "True"
   fullName: Solvro_city.Models.SolvroCity.SolvroCityNode.stop_name
   nameWithType: SolvroCityNode.stop_name
+- uid: Solvro_city.Models.User
+  name: User
+  href: api/Solvro_city.Models.User.html
+  commentId: T:Solvro_city.Models.User
+  fullName: Solvro_city.Models.User
+  nameWithType: User
+- uid: Solvro_city.Models.User.Email
+  name: Email
+  href: api/Solvro_city.Models.User.html#Solvro_city_Models_User_Email
+  commentId: P:Solvro_city.Models.User.Email
+  fullName: Solvro_city.Models.User.Email
+  nameWithType: User.Email
+- uid: Solvro_city.Models.User.Email*
+  name: Email
+  href: api/Solvro_city.Models.User.html#Solvro_city_Models_User_Email_
+  commentId: Overload:Solvro_city.Models.User.Email
+  isSpec: "True"
+  fullName: Solvro_city.Models.User.Email
+  nameWithType: User.Email
+- uid: Solvro_city.Models.User.Password
+  name: Password
+  href: api/Solvro_city.Models.User.html#Solvro_city_Models_User_Password
+  commentId: P:Solvro_city.Models.User.Password
+  fullName: Solvro_city.Models.User.Password
+  nameWithType: User.Password
+- uid: Solvro_city.Models.User.Password*
+  name: Password
+  href: api/Solvro_city.Models.User.html#Solvro_city_Models_User_Password_
+  commentId: Overload:Solvro_city.Models.User.Password
+  isSpec: "True"
+  fullName: Solvro_city.Models.User.Password
+  nameWithType: User.Password
+- uid: Solvro_city.Models.User.UserId
+  name: UserId
+  href: api/Solvro_city.Models.User.html#Solvro_city_Models_User_UserId
+  commentId: P:Solvro_city.Models.User.UserId
+  fullName: Solvro_city.Models.User.UserId
+  nameWithType: User.UserId
+- uid: Solvro_city.Models.User.UserId*
+  name: UserId
+  href: api/Solvro_city.Models.User.html#Solvro_city_Models_User_UserId_
+  commentId: Overload:Solvro_city.Models.User.UserId
+  isSpec: "True"
+  fullName: Solvro_city.Models.User.UserId
+  nameWithType: User.UserId
 - uid: Solvro_city.Program
   name: Program
   href: api/Solvro_city.Program.html
@@ -572,64 +758,102 @@ references:
   isSpec: "True"
   fullName: Solvro_city.Program.Main
   nameWithType: Program.Main
-- uid: Solvro_city.SolvroCityGraph
-  name: SolvroCityGraph
-  href: api/Solvro_city.SolvroCityGraph.html
-  commentId: T:Solvro_city.SolvroCityGraph
-  fullName: Solvro_city.SolvroCityGraph
-  nameWithType: SolvroCityGraph
-- uid: Solvro_city.SolvroCityGraph.FindPath(System.String,System.String)
+- uid: Solvro_city.Services
+  name: Solvro_city.Services
+  href: api/Solvro_city.Services.html
+  commentId: N:Solvro_city.Services
+  fullName: Solvro_city.Services
+  nameWithType: Solvro_city.Services
+- uid: Solvro_city.Services.IPathFinding
+  name: IPathFinding
+  href: api/Solvro_city.Services.IPathFinding.html
+  commentId: T:Solvro_city.Services.IPathFinding
+  fullName: Solvro_city.Services.IPathFinding
+  nameWithType: IPathFinding
+- uid: Solvro_city.Services.IPathFinding.FindPath(System.String,System.String)
   name: FindPath(String, String)
-  href: api/Solvro_city.SolvroCityGraph.html#Solvro_city_SolvroCityGraph_FindPath_System_String_System_String_
-  commentId: M:Solvro_city.SolvroCityGraph.FindPath(System.String,System.String)
-  fullName: Solvro_city.SolvroCityGraph.FindPath(System.String, System.String)
-  nameWithType: SolvroCityGraph.FindPath(String, String)
-- uid: Solvro_city.SolvroCityGraph.FindPath*
+  href: api/Solvro_city.Services.IPathFinding.html#Solvro_city_Services_IPathFinding_FindPath_System_String_System_String_
+  commentId: M:Solvro_city.Services.IPathFinding.FindPath(System.String,System.String)
+  fullName: Solvro_city.Services.IPathFinding.FindPath(System.String, System.String)
+  nameWithType: IPathFinding.FindPath(String, String)
+- uid: Solvro_city.Services.IPathFinding.FindPath*
   name: FindPath
-  href: api/Solvro_city.SolvroCityGraph.html#Solvro_city_SolvroCityGraph_FindPath_
-  commentId: Overload:Solvro_city.SolvroCityGraph.FindPath
+  href: api/Solvro_city.Services.IPathFinding.html#Solvro_city_Services_IPathFinding_FindPath_
+  commentId: Overload:Solvro_city.Services.IPathFinding.FindPath
   isSpec: "True"
-  fullName: Solvro_city.SolvroCityGraph.FindPath
+  fullName: Solvro_city.Services.IPathFinding.FindPath
+  nameWithType: IPathFinding.FindPath
+- uid: Solvro_city.Services.IPathFinding.Stops
+  name: Stops
+  href: api/Solvro_city.Services.IPathFinding.html#Solvro_city_Services_IPathFinding_Stops
+  commentId: P:Solvro_city.Services.IPathFinding.Stops
+  fullName: Solvro_city.Services.IPathFinding.Stops
+  nameWithType: IPathFinding.Stops
+- uid: Solvro_city.Services.IPathFinding.Stops*
+  name: Stops
+  href: api/Solvro_city.Services.IPathFinding.html#Solvro_city_Services_IPathFinding_Stops_
+  commentId: Overload:Solvro_city.Services.IPathFinding.Stops
+  isSpec: "True"
+  fullName: Solvro_city.Services.IPathFinding.Stops
+  nameWithType: IPathFinding.Stops
+- uid: Solvro_city.Services.SolvroCityGraph
+  name: SolvroCityGraph
+  href: api/Solvro_city.Services.SolvroCityGraph.html
+  commentId: T:Solvro_city.Services.SolvroCityGraph
+  fullName: Solvro_city.Services.SolvroCityGraph
+  nameWithType: SolvroCityGraph
+- uid: Solvro_city.Services.SolvroCityGraph.#ctor
+  name: SolvroCityGraph()
+  href: api/Solvro_city.Services.SolvroCityGraph.html#Solvro_city_Services_SolvroCityGraph__ctor
+  commentId: M:Solvro_city.Services.SolvroCityGraph.#ctor
+  fullName: Solvro_city.Services.SolvroCityGraph.SolvroCityGraph()
+  nameWithType: SolvroCityGraph.SolvroCityGraph()
+- uid: Solvro_city.Services.SolvroCityGraph.#ctor*
+  name: SolvroCityGraph
+  href: api/Solvro_city.Services.SolvroCityGraph.html#Solvro_city_Services_SolvroCityGraph__ctor_
+  commentId: Overload:Solvro_city.Services.SolvroCityGraph.#ctor
+  isSpec: "True"
+  fullName: Solvro_city.Services.SolvroCityGraph.SolvroCityGraph
+  nameWithType: SolvroCityGraph.SolvroCityGraph
+- uid: Solvro_city.Services.SolvroCityGraph.FindPath(System.String,System.String)
+  name: FindPath(String, String)
+  href: api/Solvro_city.Services.SolvroCityGraph.html#Solvro_city_Services_SolvroCityGraph_FindPath_System_String_System_String_
+  commentId: M:Solvro_city.Services.SolvroCityGraph.FindPath(System.String,System.String)
+  fullName: Solvro_city.Services.SolvroCityGraph.FindPath(System.String, System.String)
+  nameWithType: SolvroCityGraph.FindPath(String, String)
+- uid: Solvro_city.Services.SolvroCityGraph.FindPath*
+  name: FindPath
+  href: api/Solvro_city.Services.SolvroCityGraph.html#Solvro_city_Services_SolvroCityGraph_FindPath_
+  commentId: Overload:Solvro_city.Services.SolvroCityGraph.FindPath
+  isSpec: "True"
+  fullName: Solvro_city.Services.SolvroCityGraph.FindPath
   nameWithType: SolvroCityGraph.FindPath
-- uid: Solvro_city.SolvroCityGraph.InitGraph
+- uid: Solvro_city.Services.SolvroCityGraph.InitGraph
   name: InitGraph()
-  href: api/Solvro_city.SolvroCityGraph.html#Solvro_city_SolvroCityGraph_InitGraph
-  commentId: M:Solvro_city.SolvroCityGraph.InitGraph
-  fullName: Solvro_city.SolvroCityGraph.InitGraph()
+  href: api/Solvro_city.Services.SolvroCityGraph.html#Solvro_city_Services_SolvroCityGraph_InitGraph
+  commentId: M:Solvro_city.Services.SolvroCityGraph.InitGraph
+  fullName: Solvro_city.Services.SolvroCityGraph.InitGraph()
   nameWithType: SolvroCityGraph.InitGraph()
-- uid: Solvro_city.SolvroCityGraph.InitGraph*
+- uid: Solvro_city.Services.SolvroCityGraph.InitGraph*
   name: InitGraph
-  href: api/Solvro_city.SolvroCityGraph.html#Solvro_city_SolvroCityGraph_InitGraph_
-  commentId: Overload:Solvro_city.SolvroCityGraph.InitGraph
+  href: api/Solvro_city.Services.SolvroCityGraph.html#Solvro_city_Services_SolvroCityGraph_InitGraph_
+  commentId: Overload:Solvro_city.Services.SolvroCityGraph.InitGraph
   isSpec: "True"
-  fullName: Solvro_city.SolvroCityGraph.InitGraph
+  fullName: Solvro_city.Services.SolvroCityGraph.InitGraph
   nameWithType: SolvroCityGraph.InitGraph
-- uid: Solvro_city.SolvroCityGraph.Instance
-  name: Instance
-  href: api/Solvro_city.SolvroCityGraph.html#Solvro_city_SolvroCityGraph_Instance
-  commentId: P:Solvro_city.SolvroCityGraph.Instance
-  fullName: Solvro_city.SolvroCityGraph.Instance
-  nameWithType: SolvroCityGraph.Instance
-- uid: Solvro_city.SolvroCityGraph.Instance*
-  name: Instance
-  href: api/Solvro_city.SolvroCityGraph.html#Solvro_city_SolvroCityGraph_Instance_
-  commentId: Overload:Solvro_city.SolvroCityGraph.Instance
+- uid: Solvro_city.Services.SolvroCityGraph.Stops
+  name: Stops
+  href: api/Solvro_city.Services.SolvroCityGraph.html#Solvro_city_Services_SolvroCityGraph_Stops
+  commentId: P:Solvro_city.Services.SolvroCityGraph.Stops
+  fullName: Solvro_city.Services.SolvroCityGraph.Stops
+  nameWithType: SolvroCityGraph.Stops
+- uid: Solvro_city.Services.SolvroCityGraph.Stops*
+  name: Stops
+  href: api/Solvro_city.Services.SolvroCityGraph.html#Solvro_city_Services_SolvroCityGraph_Stops_
+  commentId: Overload:Solvro_city.Services.SolvroCityGraph.Stops
   isSpec: "True"
-  fullName: Solvro_city.SolvroCityGraph.Instance
-  nameWithType: SolvroCityGraph.Instance
-- uid: Solvro_city.SolvroCityGraph.SolvroNodes
-  name: SolvroNodes
-  href: api/Solvro_city.SolvroCityGraph.html#Solvro_city_SolvroCityGraph_SolvroNodes
-  commentId: P:Solvro_city.SolvroCityGraph.SolvroNodes
-  fullName: Solvro_city.SolvroCityGraph.SolvroNodes
-  nameWithType: SolvroCityGraph.SolvroNodes
-- uid: Solvro_city.SolvroCityGraph.SolvroNodes*
-  name: SolvroNodes
-  href: api/Solvro_city.SolvroCityGraph.html#Solvro_city_SolvroCityGraph_SolvroNodes_
-  commentId: Overload:Solvro_city.SolvroCityGraph.SolvroNodes
-  isSpec: "True"
-  fullName: Solvro_city.SolvroCityGraph.SolvroNodes
-  nameWithType: SolvroCityGraph.SolvroNodes
+  fullName: Solvro_city.Services.SolvroCityGraph.Stops
+  nameWithType: SolvroCityGraph.Stops
 - uid: Solvro_city.Startup
   name: Startup
   href: api/Solvro_city.Startup.html

@@ -17,11 +17,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Solvro_city.Context.UserContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solvro_city.Context.UserContext.html",
+          "hash": "16PQAWF3nzoNyRYd1SL8lQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solvro_city.Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solvro_city.Context.html",
+          "hash": "f4VAX7R4K3wabU4zYFwRjg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solvro_city.Controllers.LoginController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solvro_city.Controllers.LoginController.html",
+          "hash": "4ZgQKG91tJWKM+hqxMCneg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Solvro_city.Controllers.SolvroCityController.yml",
       "output": {
         ".html": {
           "relative_path": "api/Solvro_city.Controllers.SolvroCityController.html",
-          "hash": "pCkXkyVADURZoL22y+4bcQ=="
+          "hash": "lR2D5e6JvGcWG5mQz8DVPA=="
         }
       },
       "is_incremental": true,
@@ -33,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Solvro_city.Controllers.html",
-          "hash": "buQVIM8MPfMwf18DGAe/0g=="
+          "hash": "4BUEvTx1GwcFLF+XznHUQQ=="
         }
       },
       "is_incremental": true,
@@ -41,11 +77,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Solvro_city.Models.Responses.DefaultJsonResponses.yml",
+      "source_relative_path": "api/Solvro_city.Migrations.InitialCreate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Solvro_city.Models.Responses.DefaultJsonResponses.html",
-          "hash": "oNj9TFqffuHw4jEANEsE9Q=="
+          "relative_path": "api/Solvro_city.Migrations.InitialCreate.html",
+          "hash": "2VsSCGrLDHHsAVUEtwWPsA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solvro_city.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solvro_city.Migrations.html",
+          "hash": "C/in4xIRyAj5v45ZRzUfPg=="
         }
       },
       "is_incremental": true,
@@ -69,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Solvro_city.Models.Responses.Response-1.html",
-          "hash": "vKGZaLd7DbaAW4NiA9dFbQ=="
+          "hash": "x5WZER92juE02PW4z3o32Q=="
         }
       },
       "is_incremental": true,
@@ -81,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Solvro_city.Models.Responses.Response.html",
-          "hash": "6oBe7jDj22vUSFpvEb/L3g=="
+          "hash": "EwuaFxvR+QzTlvHKbd/QHQ=="
         }
       },
       "is_incremental": true,
@@ -93,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Solvro_city.Models.Responses.html",
-          "hash": "MGx54ljNKrPSHxa3tq3wRw=="
+          "hash": "DfQwjHcTyMpZGJ7iOy61VQ=="
         }
       },
       "is_incremental": true,
@@ -173,6 +221,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Solvro_city.Models.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solvro_city.Models.User.html",
+          "hash": "2XOeLNT5Ng7Vh4iedT3pSw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solvro_city.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solvro_city.Models.html",
+          "hash": "O40X8X9Abzrn+JD1+EoODw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Solvro_city.Program.yml",
       "output": {
         ".html": {
@@ -185,11 +257,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Solvro_city.SolvroCityGraph.yml",
+      "source_relative_path": "api/Solvro_city.Services.IPathFinding.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Solvro_city.SolvroCityGraph.html",
-          "hash": "DNjfv5Zns3y8m486O4THyg=="
+          "relative_path": "api/Solvro_city.Services.IPathFinding.html",
+          "hash": "9+Z9ujPAfJMP+VDfXpIkRA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solvro_city.Services.SolvroCityGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solvro_city.Services.SolvroCityGraph.html",
+          "hash": "ne0/DxjHNfEqDms7TSiCfg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solvro_city.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solvro_city.Services.html",
+          "hash": "4Xvy37iY3osRSpF7Cf+yOQ=="
         }
       },
       "is_incremental": true,
@@ -201,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Solvro_city.Startup.html",
-          "hash": "jIUXw2g8xfIYw3wosEOWDQ=="
+          "hash": "mQjEV5807l9NuopJpiq5Tg=="
         }
       },
       "is_incremental": true,
@@ -213,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Solvro_city.html",
-          "hash": "/D9ciJAmvZw/EKV2ayG/Dg=="
+          "hash": "h9c7mRHWMpDlGQuvy7YbPg=="
         }
       },
       "is_incremental": true,
@@ -237,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "YbayYwL6h56nOCYxCPYZlg=="
+          "hash": "TwuMBh7GY8kCw6nE8xJslQ=="
         }
       },
       "is_incremental": false,
@@ -310,8 +406,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 18,
-          "skipped_file_count": 18
+          "total_file_count": 26,
+          "skipped_file_count": 26
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

@@ -6,7 +6,7 @@
           "files": [
             "**.csproj"
           ],
-          "src": "C:\\Users\\Adrian\\source\\repos\\Solvro_city\\Solvro_city"
+          "src": "./"
         }
       ],
       "dest": "api",
@@ -49,7 +49,7 @@
         ]
       }
     ],
-    "dest": "_site",
+    "dest": "../docs",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [

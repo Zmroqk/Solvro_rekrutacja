@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
 namespace Solvro_city.Models.Responses
@@ -16,11 +16,11 @@ namespace Solvro_city.Models.Responses
         /// <summary>
         /// Status code for response
         /// </summary>
-        public int code { get; private set; }
+        public int Code { get; private set; }
         /// <summary>
         /// Data for response
         /// </summary>
-        public T data { get; private set; }
+        public T Data { get; private set; }
 
         /// <summary>
         /// Response constructor
@@ -29,8 +29,8 @@ namespace Solvro_city.Models.Responses
         /// <param name="code">Status code of response</param>
         public Response(T data, int code = 200)
         {
-            this.code = code;
-            this.data = data;
+            this.Code = code;
+            this.Data = data;
         }
 
         /// <summary>

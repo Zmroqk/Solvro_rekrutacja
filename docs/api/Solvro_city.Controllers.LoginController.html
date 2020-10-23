@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SolvroCityController
+    <title>Class LoginController
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SolvroCityController
+    <meta name="title" content="Class LoginController
    ">
     <meta name="generator" content="docfx 2.56.4.0">
     
@@ -68,12 +68,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Solvro_city.Controllers.SolvroCityController">
+            <article class="content wrap" id="_content" data-uid="Solvro_city.Controllers.LoginController">
   
   
-  <h1 id="Solvro_city_Controllers_SolvroCityController" data-uid="Solvro_city.Controllers.SolvroCityController" class="text-break">Class SolvroCityController
+  <h1 id="Solvro_city_Controllers_LoginController" data-uid="Solvro_city.Controllers.LoginController" class="text-break">Class LoginController
   </h1>
-  <div class="markdown level0 summary"><p>Solvro city api controller</p>
+  <div class="markdown level0 summary"><p>Controller that handles registering and logging in of users</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -81,7 +81,7 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">Microsoft.AspNetCore.Mvc.ControllerBase</span></div>
     <div class="level2"><span class="xref">Microsoft.AspNetCore.Mvc.Controller</span></div>
-    <div class="level3"><span class="xref">SolvroCityController</span></div>
+    <div class="level3"><span class="xref">LoginController</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -683,29 +683,29 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Solvro_city.Controllers.html">Solvro_city.Controllers</a></h6>
   <h6><strong>Assembly</strong>: Solvro_city.dll</h6>
-  <h5 id="Solvro_city_Controllers_SolvroCityController_syntax">Syntax</h5>
+  <h5 id="Solvro_city_Controllers_LoginController_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Route(&quot;/&quot;)]
+    <pre><code class="lang-csharp hljs">[Route(&quot;[controller]&quot;)]
 [ApiController]
-public class SolvroCityController : Controller, IActionFilter, IAsyncActionFilter, IFilterMetadata, IDisposable</code></pre>
+public class LoginController : Controller, IActionFilter, IAsyncActionFilter, IFilterMetadata, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/new/master/apiSpec/new?filename=Solvro_city_Controllers_SolvroCityController__ctor_Solvro_city_Services_IPathFinding_.md&amp;value=---%0Auid%3A%20Solvro_city.Controllers.SolvroCityController.%23ctor(Solvro_city.Services.IPathFinding)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/new/master/apiSpec/new?filename=Solvro_city_Controllers_LoginController__ctor_Microsoft_Extensions_Configuration_IConfiguration_Solvro_city_Context_UserContext_.md&amp;value=---%0Auid%3A%20Solvro_city.Controllers.LoginController.%23ctor(Microsoft.Extensions.Configuration.IConfiguration%2CSolvro_city.Context.UserContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/blob/master/Solvro_city/Controllers/SolvroCityController.cs/#L32">View Source</a>
+    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/blob/master/Solvro_city/Controllers/LoginController.cs/#L41">View Source</a>
   </span>
-  <a id="Solvro_city_Controllers_SolvroCityController__ctor_" data-uid="Solvro_city.Controllers.SolvroCityController.#ctor*"></a>
-  <h4 id="Solvro_city_Controllers_SolvroCityController__ctor_Solvro_city_Services_IPathFinding_" data-uid="Solvro_city.Controllers.SolvroCityController.#ctor(Solvro_city.Services.IPathFinding)">SolvroCityController(IPathFinding)</h4>
-  <div class="markdown level1 summary"><p>Controller constructor, get injection</p>
+  <a id="Solvro_city_Controllers_LoginController__ctor_" data-uid="Solvro_city.Controllers.LoginController.#ctor*"></a>
+  <h4 id="Solvro_city_Controllers_LoginController__ctor_Microsoft_Extensions_Configuration_IConfiguration_Solvro_city_Context_UserContext_" data-uid="Solvro_city.Controllers.LoginController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Solvro_city.Context.UserContext)">LoginController(IConfiguration, UserContext)</h4>
+  <div class="markdown level1 summary"><p>Constructor of controller get injections</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SolvroCityController(IPathFinding pathFinding)</code></pre>
+    <pre><code class="lang-csharp hljs">public LoginController(IConfiguration config, UserContext userContext)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -718,9 +718,15 @@ public class SolvroCityController : Controller, IActionFilter, IAsyncActionFilte
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Solvro_city.Services.IPathFinding.html">IPathFinding</a></td>
-        <td><span class="parametername">pathFinding</span></td>
-        <td><p>Path finding service</p>
+        <td><span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span></td>
+        <td><span class="parametername">config</span></td>
+        <td><p>Server configuration</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Solvro_city.Context.UserContext.html">UserContext</a></td>
+        <td><span class="parametername">userContext</span></td>
+        <td><p>User database context</p>
 </td>
       </tr>
     </tbody>
@@ -729,21 +735,21 @@ public class SolvroCityController : Controller, IActionFilter, IAsyncActionFilte
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/new/master/apiSpec/new?filename=Solvro_city_Controllers_SolvroCityController_Path_System_String_System_String_.md&amp;value=---%0Auid%3A%20Solvro_city.Controllers.SolvroCityController.Path(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/new/master/apiSpec/new?filename=Solvro_city_Controllers_LoginController_Login_Solvro_city_Models_User_.md&amp;value=---%0Auid%3A%20Solvro_city.Controllers.LoginController.Login(Solvro_city.Models.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/blob/master/Solvro_city/Controllers/SolvroCityController.cs/#L54">View Source</a>
+    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/blob/master/Solvro_city/Controllers/LoginController.cs/#L77">View Source</a>
   </span>
-  <a id="Solvro_city_Controllers_SolvroCityController_Path_" data-uid="Solvro_city.Controllers.SolvroCityController.Path*"></a>
-  <h4 id="Solvro_city_Controllers_SolvroCityController_Path_System_String_System_String_" data-uid="Solvro_city.Controllers.SolvroCityController.Path(System.String,System.String)">Path(String, String)</h4>
-  <div class="markdown level1 summary"><p>Return json data for pathfinding: list of stops between source and target and distance between them</p>
+  <a id="Solvro_city_Controllers_LoginController_Login_" data-uid="Solvro_city.Controllers.LoginController.Login*"></a>
+  <h4 id="Solvro_city_Controllers_LoginController_Login_Solvro_city_Models_User_" data-uid="Solvro_city.Controllers.LoginController.Login(Solvro_city.Models.User)">Login(User)</h4>
+  <div class="markdown level1 summary"><p>Login in user</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[HttpGet(&quot;/path&quot;)]
-[Authorize]
-public IActionResult Path([FromQuery(Name = &quot;source&quot;)] string source, [FromQuery(Name = &quot;target&quot;)] string target)</code></pre>
+    <pre><code class="lang-csharp hljs">[HttpPost(&quot;login&quot;)]
+[AllowAnonymous]
+public IActionResult Login([FromBody] User login)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -756,15 +762,9 @@ public IActionResult Path([FromQuery(Name = &quot;source&quot;)] string source, 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">source</span></td>
-        <td><p>Stop name from which to start pathfinding</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">target</span></td>
-        <td><p>Stop name where pathfinding should end</p>
+        <td><a class="xref" href="Solvro_city.Models.User.html">User</a></td>
+        <td><span class="parametername">login</span></td>
+        <td><p>User credentials</p>
 </td>
       </tr>
     </tbody>
@@ -780,29 +780,47 @@ public IActionResult Path([FromQuery(Name = &quot;source&quot;)] string source, 
     <tbody>
       <tr>
         <td><span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span></td>
-        <td><p>Json list of nodes and distance between source and target</p>
+        <td><p>If success JWT token</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/new/master/apiSpec/new?filename=Solvro_city_Controllers_SolvroCityController_Stops.md&amp;value=---%0Auid%3A%20Solvro_city.Controllers.SolvroCityController.Stops%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/new/master/apiSpec/new?filename=Solvro_city_Controllers_LoginController_Register_Solvro_city_Models_User_.md&amp;value=---%0Auid%3A%20Solvro_city.Controllers.LoginController.Register(Solvro_city.Models.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/blob/master/Solvro_city/Controllers/SolvroCityController.cs/#L41">View Source</a>
+    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/blob/master/Solvro_city/Controllers/LoginController.cs/#L53">View Source</a>
   </span>
-  <a id="Solvro_city_Controllers_SolvroCityController_Stops_" data-uid="Solvro_city.Controllers.SolvroCityController.Stops*"></a>
-  <h4 id="Solvro_city_Controllers_SolvroCityController_Stops" data-uid="Solvro_city.Controllers.SolvroCityController.Stops">Stops()</h4>
-  <div class="markdown level1 summary"><p>Returns json list of all stops/nodes in solvro city</p>
+  <a id="Solvro_city_Controllers_LoginController_Register_" data-uid="Solvro_city.Controllers.LoginController.Register*"></a>
+  <h4 id="Solvro_city_Controllers_LoginController_Register_Solvro_city_Models_User_" data-uid="Solvro_city.Controllers.LoginController.Register(Solvro_city.Models.User)">Register(User)</h4>
+  <div class="markdown level1 summary"><p>Register new user</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[HttpGet(&quot;/stops&quot;)]
-[Authorize]
-public IActionResult Stops()</code></pre>
+    <pre><code class="lang-csharp hljs">[HttpPost(&quot;register&quot;)]
+[AllowAnonymous]
+public IActionResult Register([FromBody] User newUser)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Solvro_city.Models.User.html">User</a></td>
+        <td><span class="parametername">newUser</span></td>
+        <td><p>New user object, no id should be provided</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -814,7 +832,7 @@ public IActionResult Stops()</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span></td>
-        <td><p>Json list of nodes</p>
+        <td><p>If success new user as json</p>
 </td>
       </tr>
     </tbody>
@@ -840,10 +858,10 @@ public IActionResult Stops()</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/new/master/apiSpec/new?filename=Solvro_city_Controllers_SolvroCityController.md&amp;value=---%0Auid%3A%20Solvro_city.Controllers.SolvroCityController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/new/master/apiSpec/new?filename=Solvro_city_Controllers_LoginController.md&amp;value=---%0Auid%3A%20Solvro_city.Controllers.LoginController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/blob/master/Solvro_city/Controllers/SolvroCityController.cs/#L18" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Zmroqk/Solvro_rekrutacja/blob/master/Solvro_city/Controllers/LoginController.cs/#L23" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
