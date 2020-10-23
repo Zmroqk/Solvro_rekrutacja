@@ -9,6 +9,5 @@
 /api
 log.txt
 _site
-*.db
 appsettings.json
 appsettings.Development.json
