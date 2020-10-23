@@ -31,6 +31,19 @@ references:
   commentId: T:Solvro_city.Context.UserContext
   fullName: Solvro_city.Context.UserContext
   nameWithType: UserContext
+- uid: Solvro_city.Context.UserContext.#ctor(Microsoft.Extensions.Configuration.IConfiguration)
+  name: UserContext(IConfiguration)
+  href: api/Solvro_city.Context.UserContext.html#Solvro_city_Context_UserContext__ctor_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Solvro_city.Context.UserContext.#ctor(Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: Solvro_city.Context.UserContext.UserContext(Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: UserContext.UserContext(IConfiguration)
+- uid: Solvro_city.Context.UserContext.#ctor*
+  name: UserContext
+  href: api/Solvro_city.Context.UserContext.html#Solvro_city_Context_UserContext__ctor_
+  commentId: Overload:Solvro_city.Context.UserContext.#ctor
+  isSpec: "True"
+  fullName: Solvro_city.Context.UserContext.UserContext
+  nameWithType: UserContext.UserContext
 - uid: Solvro_city.Context.UserContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
   name: OnConfiguring(DbContextOptionsBuilder)
   href: api/Solvro_city.Context.UserContext.html#Solvro_city_Context_UserContext_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_
