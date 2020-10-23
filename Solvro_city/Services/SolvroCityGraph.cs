@@ -159,6 +159,11 @@ namespace Solvro_city.Services
             foundNodes.Add(new SolvroCityNode() { id = destinationNode.id, stop_name = destinationNode.stop_name });
             foundNodes.Reverse(); //path is reversed so we need to call reverse to have it in correct order
             pathResponse.stops = foundNodes;
+
+            foreach(SolvroCityGraphNode node in Nodes)
+            {
+                node.weightSum = 0;
+            }
             return pathResponse;
         }
     }
