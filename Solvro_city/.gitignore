@@ -6,6 +6,7 @@
 /**/packages/
 /**/bin/
 /**/obj/
+/api
 log.txt
 _site
 *.db
