@@ -9,9 +9,18 @@ RUN dotnet restore
 COPY . ./
 RUN dotnet publish -c Release -o out
 
+RUN dotnet dev-certs https
+
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 WORKDIR /app
 COPY --from=build-env /app/out .
-ENV ASPNETCORE_URLS https://localhost:5001
+
+
+ENV ASPNETCORE_URLS https://localhost:5000
+ENV Jwt.SecretKey secretKey3keykey
+ENV Jwt.Issuer https://localhost:5000
+ENV Jwt.Audience https://localhost:5000
+ENV Db.Password dbPassword
+
 ENTRYPOINT ["dotnet", "Solvro_city.dll"]

@@ -11,3 +11,4 @@ log.txt
 _site
 appsettings.json
 appsettings.Development.json
+Dockerfile
