@@ -111,7 +111,7 @@ namespace Solvro_city.Controllers
         /// <returns>JWT token</returns>
         string GenerateJWTToken(/*User userInfo*/)
         {
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:SecretKey"]));
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt.SecretKey"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
             /*var claims = new[]
             {
@@ -119,8 +119,8 @@ namespace Solvro_city.Controllers
                 new Claim(JwtRegisteredClaimNames.Iat, DateTime.Now..ToString())
             };*/
             var token = new JwtSecurityToken(
-                issuer: config["Jwt:Issuer"],
-                audience: config["Jwt:Audience"],
+                issuer: config["Jwt.Issuer"],
+                audience: config["Jwt.Audience"],
                 //claims: claims,
                 expires: DateTime.Now.AddMinutes(30),
                 signingCredentials: credentials

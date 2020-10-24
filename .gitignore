@@ -339,3 +339,4 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 /Solvro_city/appsettings.Production.json
+/Solvro_city/Dockerfile.original

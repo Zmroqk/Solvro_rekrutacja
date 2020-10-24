@@ -36,6 +36,6 @@ namespace Solvro_city.Context
         /// Configure Sqlite
         /// </summary>
         /// <param name="options"></param>
-        protected override void OnConfiguring(DbContextOptionsBuilder options) { options.UseSqlite($"Data Source=users.db;Password={conf["Db:Password"]};"); }
+        protected override void OnConfiguring(DbContextOptionsBuilder options) { options.UseSqlite($"Data Source=users.db;Password={conf["Db.Password"]};"); }
     }
 }
