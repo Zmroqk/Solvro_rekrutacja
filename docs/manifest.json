@@ -24,7 +24,7 @@
           "hash": "GeJg4IUvIsfOW2YnrgnsUA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "rD0zLVnKggcBy60yBbaavg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Solvro_city.Controllers.LoginController.html",
-          "hash": "MCRiTxoY+9ZcxQ3BWvSnAA=="
+          "hash": "Ng69bNDgaN6rx2rnGFcPYw=="
         }
       },
       "is_incremental": false,
@@ -60,7 +60,7 @@
           "hash": "dJFtcooGLiDvipvpTmzYkA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -84,7 +84,7 @@
           "hash": "imSaWYkL2q68ezTwQfWGZA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -96,7 +96,7 @@
           "hash": "KiG1eaRiHst3b5QvFWWEyA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -120,7 +120,7 @@
           "hash": "s9KKM4haiudk4RqV4EJ62g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -132,7 +132,7 @@
           "hash": "VQrWeJRV4uRufpQAzE/Mmw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -144,7 +144,7 @@
           "hash": "9qwN/gzFLN8ynWgRQ594gw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Solvro_city.Models.SolvroCity.SolvroCityGraphLink.html",
-          "hash": "K6dcLujNrq60ZlLNbXc0Zw=="
+          "hash": "NdOqLSu1VfEYVSqOS4xQBQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Solvro_city.Models.SolvroCity.SolvroCityGraphNode.html",
-          "hash": "J88yC3V5RzpEjFpPLjFTag=="
+          "hash": "4IMw62/2skfU4AYZ4P19xQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -192,7 +192,7 @@
           "hash": "gnGsyIdVlzLH/N53g/u86Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -204,7 +204,7 @@
           "hash": "jyNt83+1DARTyghLkEOmcQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -216,7 +216,7 @@
           "hash": "RCBn+0t1DQU8koOot3niYg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -273,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Solvro_city.Services.SolvroCityGraph.html",
-          "hash": "Gg1v7cq+wDWvfemgzoD5Vw=="
+          "hash": "itpzMPNskt/l9lQJkJ8bEA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -288,7 +288,7 @@
           "hash": "i8c+9FTcoYhPSojgahsCeg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -348,7 +348,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 26,
-          "skipped_file_count": 18
+          "skipped_file_count": 25
         }
       }
     },

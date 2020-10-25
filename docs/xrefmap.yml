@@ -468,18 +468,18 @@ references:
   commentId: M:Solvro_city.Models.SolvroCity.SolvroCityGraphLink.#ctor
   fullName: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.SolvroCityGraphLink()
   nameWithType: SolvroCityGraphLink.SolvroCityGraphLink()
-- uid: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.#ctor(Solvro_city.Models.SolvroCity.SolvroCityLink,Solvro_city.Models.SolvroCity.SolvroCityGraphNode,Solvro_city.Models.SolvroCity.SolvroCityGraphNode,System.Boolean)
-  name: SolvroCityGraphLink(SolvroCityLink, SolvroCityGraphNode, SolvroCityGraphNode, Boolean)
-  href: api/Solvro_city.Models.SolvroCity.SolvroCityGraphLink.html#Solvro_city_Models_SolvroCity_SolvroCityGraphLink__ctor_Solvro_city_Models_SolvroCity_SolvroCityLink_Solvro_city_Models_SolvroCity_SolvroCityGraphNode_Solvro_city_Models_SolvroCity_SolvroCityGraphNode_System_Boolean_
-  commentId: M:Solvro_city.Models.SolvroCity.SolvroCityGraphLink.#ctor(Solvro_city.Models.SolvroCity.SolvroCityLink,Solvro_city.Models.SolvroCity.SolvroCityGraphNode,Solvro_city.Models.SolvroCity.SolvroCityGraphNode,System.Boolean)
-  fullName: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.SolvroCityGraphLink(Solvro_city.Models.SolvroCity.SolvroCityLink, Solvro_city.Models.SolvroCity.SolvroCityGraphNode, Solvro_city.Models.SolvroCity.SolvroCityGraphNode, System.Boolean)
-  nameWithType: SolvroCityGraphLink.SolvroCityGraphLink(SolvroCityLink, SolvroCityGraphNode, SolvroCityGraphNode, Boolean)
-- uid: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.#ctor(Solvro_city.Models.SolvroCity.SolvroCityLink,System.Boolean)
-  name: SolvroCityGraphLink(SolvroCityLink, Boolean)
-  href: api/Solvro_city.Models.SolvroCity.SolvroCityGraphLink.html#Solvro_city_Models_SolvroCity_SolvroCityGraphLink__ctor_Solvro_city_Models_SolvroCity_SolvroCityLink_System_Boolean_
-  commentId: M:Solvro_city.Models.SolvroCity.SolvroCityGraphLink.#ctor(Solvro_city.Models.SolvroCity.SolvroCityLink,System.Boolean)
-  fullName: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.SolvroCityGraphLink(Solvro_city.Models.SolvroCity.SolvroCityLink, System.Boolean)
-  nameWithType: SolvroCityGraphLink.SolvroCityGraphLink(SolvroCityLink, Boolean)
+- uid: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.#ctor(Solvro_city.Models.SolvroCity.SolvroCityLink,Solvro_city.Models.SolvroCity.SolvroCityGraphNode,Solvro_city.Models.SolvroCity.SolvroCityGraphNode,System.Boolean,System.Boolean)
+  name: SolvroCityGraphLink(SolvroCityLink, SolvroCityGraphNode, SolvroCityGraphNode, Boolean, Boolean)
+  href: api/Solvro_city.Models.SolvroCity.SolvroCityGraphLink.html#Solvro_city_Models_SolvroCity_SolvroCityGraphLink__ctor_Solvro_city_Models_SolvroCity_SolvroCityLink_Solvro_city_Models_SolvroCity_SolvroCityGraphNode_Solvro_city_Models_SolvroCity_SolvroCityGraphNode_System_Boolean_System_Boolean_
+  commentId: M:Solvro_city.Models.SolvroCity.SolvroCityGraphLink.#ctor(Solvro_city.Models.SolvroCity.SolvroCityLink,Solvro_city.Models.SolvroCity.SolvroCityGraphNode,Solvro_city.Models.SolvroCity.SolvroCityGraphNode,System.Boolean,System.Boolean)
+  fullName: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.SolvroCityGraphLink(Solvro_city.Models.SolvroCity.SolvroCityLink, Solvro_city.Models.SolvroCity.SolvroCityGraphNode, Solvro_city.Models.SolvroCity.SolvroCityGraphNode, System.Boolean, System.Boolean)
+  nameWithType: SolvroCityGraphLink.SolvroCityGraphLink(SolvroCityLink, SolvroCityGraphNode, SolvroCityGraphNode, Boolean, Boolean)
+- uid: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.#ctor(Solvro_city.Models.SolvroCity.SolvroCityLink,System.Boolean,System.Boolean)
+  name: SolvroCityGraphLink(SolvroCityLink, Boolean, Boolean)
+  href: api/Solvro_city.Models.SolvroCity.SolvroCityGraphLink.html#Solvro_city_Models_SolvroCity_SolvroCityGraphLink__ctor_Solvro_city_Models_SolvroCity_SolvroCityLink_System_Boolean_System_Boolean_
+  commentId: M:Solvro_city.Models.SolvroCity.SolvroCityGraphLink.#ctor(Solvro_city.Models.SolvroCity.SolvroCityLink,System.Boolean,System.Boolean)
+  fullName: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.SolvroCityGraphLink(Solvro_city.Models.SolvroCity.SolvroCityLink, System.Boolean, System.Boolean)
+  nameWithType: SolvroCityGraphLink.SolvroCityGraphLink(SolvroCityLink, Boolean, Boolean)
 - uid: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.#ctor*
   name: SolvroCityGraphLink
   href: api/Solvro_city.Models.SolvroCity.SolvroCityGraphLink.html#Solvro_city_Models_SolvroCity_SolvroCityGraphLink__ctor_
@@ -487,6 +487,19 @@ references:
   isSpec: "True"
   fullName: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.SolvroCityGraphLink
   nameWithType: SolvroCityGraphLink.SolvroCityGraphLink
+- uid: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.Available
+  name: Available
+  href: api/Solvro_city.Models.SolvroCity.SolvroCityGraphLink.html#Solvro_city_Models_SolvroCity_SolvroCityGraphLink_Available
+  commentId: P:Solvro_city.Models.SolvroCity.SolvroCityGraphLink.Available
+  fullName: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.Available
+  nameWithType: SolvroCityGraphLink.Available
+- uid: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.Available*
+  name: Available
+  href: api/Solvro_city.Models.SolvroCity.SolvroCityGraphLink.html#Solvro_city_Models_SolvroCity_SolvroCityGraphLink_Available_
+  commentId: Overload:Solvro_city.Models.SolvroCity.SolvroCityGraphLink.Available
+  isSpec: "True"
+  fullName: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.Available
+  nameWithType: SolvroCityGraphLink.Available
 - uid: Solvro_city.Models.SolvroCity.SolvroCityGraphLink.SourceNode
   name: SourceNode
   href: api/Solvro_city.Models.SolvroCity.SolvroCityGraphLink.html#Solvro_city_Models_SolvroCity_SolvroCityGraphLink_SourceNode
@@ -560,6 +573,19 @@ references:
   isSpec: "True"
   fullName: Solvro_city.Models.SolvroCity.SolvroCityGraphNode.Links
   nameWithType: SolvroCityGraphNode.Links
+- uid: Solvro_city.Models.SolvroCity.SolvroCityGraphNode.prevNode
+  name: prevNode
+  href: api/Solvro_city.Models.SolvroCity.SolvroCityGraphNode.html#Solvro_city_Models_SolvroCity_SolvroCityGraphNode_prevNode
+  commentId: P:Solvro_city.Models.SolvroCity.SolvroCityGraphNode.prevNode
+  fullName: Solvro_city.Models.SolvroCity.SolvroCityGraphNode.prevNode
+  nameWithType: SolvroCityGraphNode.prevNode
+- uid: Solvro_city.Models.SolvroCity.SolvroCityGraphNode.prevNode*
+  name: prevNode
+  href: api/Solvro_city.Models.SolvroCity.SolvroCityGraphNode.html#Solvro_city_Models_SolvroCity_SolvroCityGraphNode_prevNode_
+  commentId: Overload:Solvro_city.Models.SolvroCity.SolvroCityGraphNode.prevNode
+  isSpec: "True"
+  fullName: Solvro_city.Models.SolvroCity.SolvroCityGraphNode.prevNode
+  nameWithType: SolvroCityGraphNode.prevNode
 - uid: Solvro_city.Models.SolvroCity.SolvroCityGraphNode.weightSum
   name: weightSum
   href: api/Solvro_city.Models.SolvroCity.SolvroCityGraphNode.html#Solvro_city_Models_SolvroCity_SolvroCityGraphNode_weightSum

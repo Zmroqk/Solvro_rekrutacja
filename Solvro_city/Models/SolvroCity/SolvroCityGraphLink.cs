@@ -20,9 +20,16 @@ namespace Solvro_city.Models.SolvroCity
         public SolvroCityGraphNode TargetNode { get; set; }
 
         /// <summary>
+        /// Can be this link used
+        /// </summary>
+        public bool Available { get; }
+
+
+        /// <summary>
         /// Default constructor
         /// </summary>
         public SolvroCityGraphLink() : base() {
+            Available = true;
             SourceNode = null;
             TargetNode = null;
         }
@@ -32,8 +39,10 @@ namespace Solvro_city.Models.SolvroCity
         /// </summary>
         /// <param name="solvroCityLink">Link to generate this object from</param>
         /// <param name="reverse">Should data be reversed (sorurce as target, target as source)</param>
-        public SolvroCityGraphLink(SolvroCityLink solvroCityLink, bool reverse = false) : base(solvroCityLink, reverse)
+        /// <param name="available">Should be this link available in path finding algorithm</param>
+        public SolvroCityGraphLink(SolvroCityLink solvroCityLink, bool reverse = false, bool available = true) : base(solvroCityLink, reverse)
         {
+            Available = available;
             SourceNode = null;
             TargetNode = null;
         }
@@ -44,8 +53,10 @@ namespace Solvro_city.Models.SolvroCity
         /// <param name="sourceNode">Source node</param>
         /// <param name="targetNode">Target node</param>
         /// <param name="reverse">Should data be reversed (sorurce as target, target as source)</param>
-        public SolvroCityGraphLink(SolvroCityLink solvroCityLink, SolvroCityGraphNode sourceNode, SolvroCityGraphNode targetNode, bool reverse = false) : base(solvroCityLink, reverse)
+        /// <param name="available">Should be this link available in path finding algorithm</param>
+        public SolvroCityGraphLink(SolvroCityLink solvroCityLink, SolvroCityGraphNode sourceNode, SolvroCityGraphNode targetNode, bool reverse = false, bool available = true) : base(solvroCityLink, reverse)
         {
+            Available = available;
             if (reverse)
             {
                 SourceNode = targetNode;

@@ -55,18 +55,39 @@ namespace Solvro_city.Controllers
         public IActionResult Register([FromBody]User newUser)
         {
             IActionResult response = BadRequest(new Response("No data provided", 400));
-            if(newUser == null || String.IsNullOrEmpty(newUser.Email) || String.IsNullOrEmpty(newUser.Password) || newUser.UserId != null)
-                return response;
-            newUser.Email.ToLower();
-            User existingUser = dbUser.Users.SingleOrDefault((user) => user.Email == newUser.Email);
-            if(existingUser == null && newUser.Email != String.Empty && newUser.Password != string.Empty)
+            try
             {
-                dbUser.Users.Add(newUser);
-                dbUser.SaveChanges();
-                return Json(newUser);
+                if (newUser == null || String.IsNullOrEmpty(newUser.Email) || String.IsNullOrEmpty(newUser.Password) || newUser.UserId != null)
+                    return response;
+                newUser.Email = newUser.Email.ToLower();
+                if (!CheckIfUserExists(newUser))
+                {
+                    dbUser.Users.Add(newUser);
+                    dbUser.SaveChanges();
+                    return Json(newUser);
+                }
+                response = BadRequest(new Response("User already exists", 400));
+                return response;
             }
-            response = BadRequest(new Response("User already exists", 400));
-            return response;
+            catch(Exception e)
+            {
+                response = Problem(e.Message, this.ToString(), 500);
+                return response;
+            }
+            
+        }
+
+        /// <summary>
+        /// Check if provided user already exists in database
+        /// </summary>
+        /// <param name="user">User to check</param>
+        /// <returns>True if exists</returns>
+        bool CheckIfUserExists(User user)
+        {
+            User existingUser = dbUser.Users.SingleOrDefault((existingUser) => existingUser.Email == user.Email);
+            if (existingUser == null)
+                return false;
+            return true;
         }
 
         /// <summary>
@@ -79,21 +100,31 @@ namespace Solvro_city.Controllers
         public IActionResult Login([FromBody]User login)
         {
             IActionResult response = BadRequest();
-            if (login == null)
-                return response;
-            response = Unauthorized();
-            User user = AuthenticateUser(login);
-            if (user != null)
-            {
-                var tokenString = GenerateJWTToken();
-                response = Json(new
+            try
+            {              
+                if (login == null || String.IsNullOrEmpty(login.Email) || String.IsNullOrEmpty(login.Password))
+                    return response;
+                response = Unauthorized();
+                login.Email = login.Email.ToLower();
+                User user = AuthenticateUser(login);
+                if (user != null)
                 {
-                    token = tokenString,
-                    userDetails = user,
-                });
+                    var tokenString = GenerateJWTToken();
+                    response = Json(new
+                    {
+                        token = tokenString,
+                        userDetails = user,
+                    });
+                }
+                return response;
             }
-            return response;
+            catch(Exception e)
+            {
+                response = Problem(e.Message, this.ToString(), 500);
+                return response;
+            }
         }
+
         /// <summary>
         /// Check if user credentials match with user in database
         /// </summary>

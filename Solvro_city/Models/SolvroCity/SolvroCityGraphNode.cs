@@ -10,7 +10,10 @@ namespace Solvro_city.Models.SolvroCity
     /// </summary>
     public class SolvroCityGraphNode : SolvroCityNode
     {
-        //public SolvroCityGraphNode prevNode { get; set; }
+        /// <summary>
+        /// Reference to previous node
+        /// </summary>
+        public SolvroCityGraphNode prevNode { get; set; }
         /// <summary>
         /// Sum for distance in pathfinding algorithm
         /// </summary>
